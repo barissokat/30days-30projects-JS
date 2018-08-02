@@ -1,0 +1,30 @@
+:root {
+	--base: #ff0000;
+	--spacing: 10px;
+	--blur: 10px;
+}
+body {
+	text-align: center;
+	background: black;
+	color: white;
+	font-size: 1.8rem;
+	font-weight: 100;
+}
+h2 {
+	font-weight: bold;
+}
+.hl {
+	color: var(--base);
+}
+.controls {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	color: #606060;
+}
+img {
+	padding: var(--spacing);
+	background-color: var(--base);
+	filter: blur(var(--blur));
+}
