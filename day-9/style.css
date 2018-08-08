@@ -1,0 +1,40 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.settings {
+	height: 5%;
+	display: flex;
+  	justify-content: center;
+  	background-color: black;
+}
+.settings .btn {
+	background-color: transparent;
+	border: 0;
+	color: red;
+	padding: 1%;
+	margin: 0;
+}
+.settings .btn:hover {
+	color: white;
+}
+.container {
+	height: 95%;
+	width: 100%;
+	margin: 0 auto;
+	display: grid;
+  	justify-items: stretch;
+  	justify-content: stretch;
+  	align-items: stretch;
+  	align-content: stretch;
+}
+.box {
+	border: .5px solid rgb(222, 222, 222);
+	margin: 0;
+	padding: 0;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
